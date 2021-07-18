@@ -1,0 +1,15 @@
+.msg_error{
+    background-color: rgb(182, 86, 86);
+    color: rgb(209, 170, 170);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.msg_error>h3{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
