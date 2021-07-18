@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="redes">
                         <a href="https://www.linkedin.com/in/emilcemolina/"target="_blank"rel="noreferrer" ><i className="fab fa-linkedin"></i></a>
                         <a href="https://github.com/molinaemilce"target="_blank" rel ="noreferrer"><i className="fab fa-github"></i></a>
-                        <a href="mailto:emilcedaiana117@gmail.com" rel="noreferrer"><i className="fas fa-envelope-open-text"></i></a>
+                        <a href="mailto:molinaemilce.dev@gmail.com" rel="noreferrer"><i className="fas fa-envelope-open-text"></i></a>
                     </div>
                     <div className="datos">
                         <p>Emilce Daiana Molina | Copyrigth 2021</p>
