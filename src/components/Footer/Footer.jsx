@@ -12,7 +12,7 @@ const Footer = () => {
                         <a href="mailto:molinaemilce.dev@gmail.com" rel="noreferrer"><i className="fas fa-envelope-open-text"></i></a>
                     </div>
                     <div className="datos">
-                        <p>Emilce Daiana Molina | Copyrigth 2021</p>
+                        <p>Emilce Daiana Molina © Copyrigths 2021</p>
                     </div>
                 </section>
             </div>

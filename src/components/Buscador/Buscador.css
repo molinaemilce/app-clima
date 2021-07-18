@@ -14,4 +14,18 @@
     border-radius: 5px;
     padding: 5px 0px;
     background-color: rgb(128, 116, 206);
+    color: rgb(255, 255, 255);
+}
+input:focus, select:focus, select, input.form-control:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+    border-color: rgb(128, 116, 206);
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+
 }
