@@ -3,8 +3,8 @@ const API_key = 'uk&appid=0c310b8f047f6b24a53223a1e9f742f8';
 
 
 
-const getClima = ({ciudad='london'} = {}) =>{
-    const API_url= `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${API_key}`;
+const getClima = async ({ciudad='london'} = {}) =>{
+    const API_url= await  `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${API_key}`;
    
     return fetch(API_url)
     .then(res => res.json())
