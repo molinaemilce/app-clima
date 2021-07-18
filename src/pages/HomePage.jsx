@@ -24,7 +24,7 @@ const HomePage = () => {
 
       const getSearchApi = async () =>{
         const apiKey = '0c310b8f047f6b24a53223a1e9f742f8';
-        const urlApi = await `http://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${apiKey}&units=metric`;
+        const urlApi = await `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${apiKey}&units=metric`;
         
         setLoading(true);
 
